@@ -1,8 +1,14 @@
 import React from 'react'
+import DrawGrid from './DrawGrid'
+
+
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+    <h1>Drawing</h1>
+    <DrawGrid/>
+    </>
   )
 }
 
