@@ -6,7 +6,7 @@ import Square from './Square'
 const App = () => {
   return (
     <>
-    <h1>Make some art</h1>
+    <h1>Add some colour</h1>
     <div className = 'colouringArea'>
     <Square/>
     <Square/>

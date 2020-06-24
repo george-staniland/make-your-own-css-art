@@ -3,11 +3,12 @@ body {
     font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
+    font-size: 25px;
 }
 
 .colouringArea {
     display: flex;
-    width: 400px;
+    width: 80%;
     flex-wrap: wrap;
 }
 
