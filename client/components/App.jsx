@@ -1,14 +1,24 @@
 import React from 'react'
-import DrawGrid from './DrawGrid'
+import Square from './Square'
 
 
 
 const App = () => {
   return (
     <>
-    <h1>Drawing</h1>
-    <DrawGrid/>
-    </>
+    <h1>Make some art</h1>
+    <div className = 'colouringArea'>
+    <Square/>
+    <Square/>
+    <Square/>
+    <Square/>
+    <Square/>
+    <Square/>
+    <Square/>
+    <Square/>
+    <Square/>
+    </div>
+    </>  
   )
 }
 

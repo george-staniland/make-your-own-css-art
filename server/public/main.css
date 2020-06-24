@@ -1,4 +1,16 @@
 body {
     color: cornflowerblue;
     font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.colouringArea {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.square {
+    margin: 4px;
 }
