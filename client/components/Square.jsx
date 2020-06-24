@@ -17,7 +17,7 @@ class Square extends React.Component  {
 
 handleClick= () => {
    this.setState ({
-       squareColour: 'bisque',
+       squareColour: 'pink',
        height: sizeVal(),
        width: sizeVal(),
    })
