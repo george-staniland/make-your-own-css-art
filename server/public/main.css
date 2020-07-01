@@ -1,26 +1,29 @@
 body {
-    color: cornflowerblue;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace; 
     display: flex;
     justify-content: center;
-    font-size: 25px;
 }
 
-.colouringArea {
-    display: flex;
-    width: 80%;
-    flex-wrap: wrap;
+h1 {
+    color: cornflowerblue;
+    /* font-size: 6vh; */
+    font-size: 460%;
+
 }
 
-.square {
-    margin: 4px;
-}
-
-.hand {
-    width: 450px;
-}
-
-path:hover {
+/* path:hover {
     stroke: blue;
     fill: red;
+} */
+
+.text-div-center {
+    max-width: 652px;
+    margin-top: 35%;
+    text-align: center;
+}
+
+#intro-text-div {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
 }
