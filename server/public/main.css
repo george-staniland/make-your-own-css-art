@@ -6,15 +6,14 @@ body {
 
 h1 {
     color: cornflowerblue;
-    /* font-size: 6vh; */
-    font-size: 460%;
+    font-size: 4vw;
 
 }
 
-/* path:hover {
-    stroke: blue;
-    fill: red;
-} */
+button {
+    font-family: 'Roboto Mono', monospace; 
+    color: black;
+}
 
 .text-div-center {
     max-width: 652px;

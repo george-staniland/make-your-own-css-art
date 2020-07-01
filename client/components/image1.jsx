@@ -10,6 +10,7 @@ class Image1 extends React.Component {
         return (
             <div>
                 <h1>This an an SVG image ya'll!!!</h1>
+                <button><Link to="/">Home</Link></button>
             </div>
         )
     }
