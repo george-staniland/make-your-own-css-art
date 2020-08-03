@@ -8,11 +8,24 @@ module.exports = {
   },
   mode: 'development',
   module: {
-    rules: [{
+    rules: [
+      {
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/
-    }]
+    },
+    {
+      test: /\.(png|jp(e*)g|svg|gif)$/,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            name: 'images/[hash]-[name].[ext]',
+          },
+        },
+      ],
+    },
+  ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
