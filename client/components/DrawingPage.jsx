@@ -7,6 +7,7 @@ import {
 //   import TestSvg from '../../server/public/Images/test-svg.svg' 
 
 import BasicSVG from './BasicSVG'
+import House from './HouseSVG'
 
 class DrawingPage extends React.Component {
 
@@ -39,7 +40,8 @@ class DrawingPage extends React.Component {
 
                 </div>
                 <div id="drawingSection">
-                    <BasicSVG paintBucketColour={this.state.paintBucketCurrent} />
+                    {/* <BasicSVG paintBucketColour={this.state.paintBucketCurrent} /> */}
+                    <House/>
                 </div>
 
 
