@@ -1,6 +1,6 @@
 import React from 'react'
 import Intro from './Intro'
-import Image1 from './image1'
+import DrawingPage from './DrawingPage'
 
 import {
   HashRouter as Router,
@@ -15,7 +15,7 @@ const App = () => {
     <>
     <Router>
     <Route exact path="/" component={Intro}/>
-    <Route path="/image1" component={Image1} />
+    <Route path="/draw" component={DrawingPage} />
 
 
 

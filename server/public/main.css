@@ -27,12 +27,24 @@ button {
     border-width: 10px;
 }
 
-#test-image {
+
+#colourOptions{
+    display: block;
+    float: left;
+    width: 40vw;
 }
 
-#Bisque {
-    color: bisque;
+#drawingSection {
+    display: block;
+    float: right;
+    width: 40vw;
 }
-#CornBlue{
-    color: cornflowerblue;
+
+#homeButton{
+    position: absolute;
+}
+
+#Bisque{
+    /* height: 100px;
+    background-color: brown; */
 }

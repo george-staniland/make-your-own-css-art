@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from './image1'
+import Image1 from './DrawingPage'
 import {
     HashRouter as Router,
     Route,
@@ -13,7 +13,7 @@ class Intro extends React.Component {
 
                 <div id="intro-text-div" className="text-div-center">
                     <h1>Click below to make something.Peace.</h1>
-                    <button><Link to="/image1">MAKE SOMETHING</Link></button>
+                    <button><Link to="/draw">MAKE SOMETHING</Link></button>
                 </div>
         )
     }
