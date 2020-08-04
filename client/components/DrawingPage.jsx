@@ -10,28 +10,36 @@ import BasicSVG from './BasicSVG'
 
 class DrawingPage extends React.Component {
 
+    state = {
+        paintBucketCurrent: ''
+    }
+
 
     // clicking the h1 text box add its Colour to local state
     // a little circle in top right displays that colour
 
-    getColour = (currentColour) => {
-        console.log("find current colour b!")
+    getColour = (id) => {
+        const currentCol = document.getElementById(id).style.color 
+        this.setState({
+            paintBucketCurrent: currentCol
+        })
     }
 
     render() {
-
+        
 
         return (
             <div>
                 <button id="homeButton"><Link to="/">Home</Link></button>
 
                 <div id="colourOptions">
-                    <h1 onClick={this.getColour} style={{ color: 'bisque' }} >Bisque</h1>
-                    <h1 onClick={this.getColour} style={{ color: 'cornflowerblue' }}>Cornflower Blue</h1>
+                    <h1 id="bisque" onClick={ () => this.getColour("bisque")} style={{ color: 'bisque' }} >Bisque</h1>
+                    <h1 id="blue" onClick={ () => this.getColour("blue")} style={{ color: 'cornflowerblue' }}>Cornflower Blue</h1>
+                    <div id="paintBucketCircle" style={{ background: this.state.paintBucketCurrent }}></div>
 
                 </div>
                 <div id="drawingSection">
-                    <BasicSVG />
+                    <BasicSVG paintBucketColour={this.state.paintBucketCurrent} />
                 </div>
 
 
