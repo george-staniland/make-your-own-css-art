@@ -36,12 +36,11 @@ class DrawingPage extends React.Component {
                 <div id="colourOptions">
                     <h1 id="bisque" onClick={ () => this.getColour("bisque")} style={{ color: 'bisque' }} >Bisque</h1>
                     <h1 id="blue" onClick={ () => this.getColour("blue")} style={{ color: 'cornflowerblue' }}>Cornflower Blue</h1>
-                    <div id="paintBucketCircle" style={{ background: this.state.paintBucketCurrent }}></div>
+                    <div id="paintBucketCircle" style={{ background: this.state.paintBucketCurrent }}> <p>Selected Colour:</p></div>
 
                 </div>
                 <div id="drawingSection">
-                    {/* <BasicSVG paintBucketColour={this.state.paintBucketCurrent} /> */}
-                    <House/>
+                    <BasicSVG paintBucketColour={this.state.paintBucketCurrent} />
                 </div>
 
 
