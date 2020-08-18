@@ -5,8 +5,29 @@ body {
 }
 
 h1 {
-    color:black;
     font-size: 4vw;
+    margin-bottom: -1.1em;
+    
+}
+
+#bisque {
+
+}
+#blue{
+
+}
+#LightSalmon{
+
+}
+#Tomato{
+
+}
+
+#PeachPuff{
+
+}
+
+#paintBucketCircle{
 
 }
 
@@ -51,4 +72,5 @@ button {
     border: 3px black solid; 
     padding-left: 20px;
     padding-top: 22px;
+    margin-top: 5em;
 }
