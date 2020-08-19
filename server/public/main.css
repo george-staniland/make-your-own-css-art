@@ -10,25 +10,8 @@ h1 {
     
 }
 
-#bisque {
-
-}
-#blue{
-
-}
-#LightSalmon{
-
-}
-#Tomato{
-
-}
-
-#PeachPuff{
-
-}
-
-#paintBucketCircle{
-
+#intro-text {
+    margin: 32px;
 }
 
 button {
@@ -46,19 +29,19 @@ button {
     border-style: solid;
     border-color: black;
     border-width: 10px;
+    padding: 2em;
 }
 
 
 #colourOptions{
     display: block;
     float: left;
-    width: 40vw;
 }
 
 #drawingSection {
     display: block;
     float: right;
-    width: 40vw;
+    margin-top: -105px;
 }
 
 #homeButton{
@@ -73,4 +56,8 @@ button {
     padding-left: 20px;
     padding-top: 22px;
     margin-top: 5em;
+}
+
+.action {
+    cursor: pointer;
 }
