@@ -1,6 +1,5 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import ReactVivus from 'react-vivus';
 
 class BasicSVG extends React.Component {
 

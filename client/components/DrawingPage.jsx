@@ -27,7 +27,7 @@ class DrawingPage extends React.Component {
                 <button id="homeButton"><Link to="/">Home</Link></button>
 
                 <div id="colourOptions">
-                    <h1 id="bisque" className="action" onClick={() => this.getColour("bisque")} style={{ fontFamily: 'BalooTamma2', color: 'bisque' }} >Bisque</h1>
+                    <h1 id="bisque" className="action" onClick={() => this.getColour("bisque")} style={{ color: 'bisque' }} >Bisque</h1>
 
                     <h1 id="blue" className="action" onClick={() => this.getColour("blue")} style={{ color: 'cornflowerblue' }}>Cornflower Blue</h1>
 
@@ -52,3 +52,6 @@ class DrawingPage extends React.Component {
 }
 
 export default DrawingPage
+
+
+

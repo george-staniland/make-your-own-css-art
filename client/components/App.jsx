@@ -16,9 +16,6 @@ const App = () => {
     <Router>
     <Route exact path="/" component={Intro}/>
     <Route path="/draw" component={DrawingPage} />
-
-
-
     </Router>
     </>   
   
