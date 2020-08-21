@@ -13,9 +13,6 @@ class BasicSVG extends React.Component {
     }
 
     fillColour = (shape) => {
-        console.log('this is shape ----', shape)
-        console.log('test from basicSVG comp')
-
         this.setState({
             [shape]: this.props.paintBucketColour,
         })
