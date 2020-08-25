@@ -5,6 +5,7 @@ import {
     Link,
 } from "react-router-dom"
 import BasicSVG from './BasicSVG'
+import SvgGamer from './SvgGamer'
 
 class DrawingPage extends React.Component {
 
@@ -42,7 +43,9 @@ class DrawingPage extends React.Component {
                 </div>
 
                 <div id="drawingSection">
-                    <BasicSVG paintBucketColour={this.state.paintBucketCurrent} />
+                    {/* <BasicSVG paintBucketColour={this.state.paintBucketCurrent} /> */}
+                    <SvgGamer/>
+
                 </div>
 
 

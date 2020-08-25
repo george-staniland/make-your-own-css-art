@@ -59,8 +59,8 @@ button {
 
 .action {
     cursor: pointer;
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
     animation: dash 1.8s linear forwards;
 }
 
