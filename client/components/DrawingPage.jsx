@@ -44,7 +44,7 @@ class DrawingPage extends React.Component {
 
                 <div id="drawingSection">
                     {/* <BasicSVG paintBucketColour={this.state.paintBucketCurrent} /> */}
-                    <SvgGamer/>
+                    <SvgGamer paintBucketColour={this.state.paintBucketCurrent}/>
 
                 </div>
 
